@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
-//code here 
+    
   const[Data1, setData1] = useState("OFF");
   const[Data2, setData2] = useState("ON");
 
@@ -22,12 +22,11 @@ const App = () => {
       </button>
       <br />
       <br />
-      <button id="btn2" onClick={(e)=>handleClick(e)}
-        {Data2}
+      <button id="btn2" onClick={(e)=>handleClick(e)}>
+      {Data2}
       </button>
     </div>
   );
 };
-
 
 export default App;
