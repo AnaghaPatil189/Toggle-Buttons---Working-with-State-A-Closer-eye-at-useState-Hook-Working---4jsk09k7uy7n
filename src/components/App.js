@@ -27,7 +27,7 @@ const App = () => {
       </button>
     </div>
   );
-}
+};
 
 
 export default App;
